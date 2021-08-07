@@ -31,12 +31,7 @@ export default {
         hotspot: true,
       },
     },
-   
-    {
-      name: 'publishedAt',
-      title: 'Published at',
-      type: 'datetime',
-    },
+
     {
       name: 'body',
       title: 'Body',

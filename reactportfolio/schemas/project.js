@@ -9,14 +9,6 @@ export default {
 
         },
         {
-            name: "date",
-            type: "datetime",
-        },
-        {
-            name:"place",
-            type:"string"
-        },
-        {
             name:"description",
             type:"string"
         },
@@ -35,20 +27,20 @@ export default {
 
         },
         {
-            name: "link",
+            name: "appLink",
             type: "url",
         },
         {
-            name: "tags",
-            type: "array",
-            of: [
-                {
-                    type: "string",
-                },
-            ],
+            name: "githubLink",
+            type: "url",
+        },
+        {
+            name: 'mainImage',
+            title: 'Main image',
+            type: 'image',
             options: {
-                layout: "tags",
-            }
-        }
+              hotspot: true,
+            },
+        },
     ],
 };
