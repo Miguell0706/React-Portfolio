@@ -42,13 +42,13 @@ export default function About() {
                   <div className="text-lg flex flex-col justify-center">
                       <h1 className= "cursive text-6xl text-green-100 mb-4">
                           Hello, I'm {" "}
-                          <span className="text-green-100">{author.name} , I am from Tucson, Arizona. I am an upcoming programmer/software developer
+                          <span className="text-green-100">{author.name} 
+        <div>, I am from Tucson, Arizona. I am an upcoming programmer/software developer
         I would like to master multiple langauges such as javascript,python, and C++
         in the future. My dream coding job would be something working with 
 
         AI technology to help progress mankind. Hobbies of mine include working out,
         playing video games, and practicing coding of course! 
-        <div><p></p>
             </div></span>
                       </h1>
                  
