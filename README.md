@@ -19,6 +19,10 @@ This project was to build a portfolio using react!
 
 *[License](#license)
 
+
+![Screenshot (1)](https://user-images.githubusercontent.com/82692900/128627005-7688220d-a949-4e22-96cb-c7a3d03845ff.png)
+
+
 ## License
     This project has MIT license.
 
