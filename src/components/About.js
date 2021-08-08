@@ -72,28 +72,28 @@ export default function About() {
         </div>
         <div className="container mx-auto flex justify-evenly">
           <nav className="flex">
-            <div class="w-6/12 sm:w-4/12 px-4">
+            <div className="w-6/12 sm:w-4/12 px-4">
               <img
                 src={cssImage}
                 alt="css shield"
                 className="inline-flex items-center py-3 px-3 my-6 mx-10 rounded"
               />
             </div>
-            <div class="w-6/12 sm:w-4/12 px-4">
+            <div className="w-6/12 sm:w-4/12 px-4">
             <img
               src={htmlImage}
               alt="html shield"
               className="inline-flex items-center py-3 px-3 my-6 mx-10 rounded"
             />
             </div>
-            <div class="w-6/12 sm:w-4/12 px-4">
+            <div className="w-6/12 sm:w-4/12 px-4">
             <img
               src={javascriptImage}
               alt="java shield"
               className="inline-flex items-center py-3 px-3 my-6 mx-10 rounded"
             />
             </div>
-            <div class="w-6/12 sm:w-4/12 px-4">
+            <div className="w-6/12 sm:w-4/12 px-4">
             <img
               src={reactImage}
               alt="ract shield"
