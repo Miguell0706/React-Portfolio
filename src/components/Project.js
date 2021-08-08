@@ -32,9 +32,9 @@ export default function Project() {
       <img
         src="https://source.unsplash.com/1600x900/?nature/"
         alt="Random Nature image"
-        className="absolute object-cover w-full h-full opacity-20"
-      />
+        className=" overflow-visible absolute object-cover w-full h-full opacity-20"
 
+      />
       <section className="container mx-auto">
         <h1 className="text-8xl font-bold text-gray-300 mb-12 flex justify-center hahmlet opacity-80">
           My Projects
