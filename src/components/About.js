@@ -31,7 +31,7 @@ export default function About() {
     <main className="bg-gradient-to-r from-black to-gray-600 min-h-screen">
       <img
         src="https://source.unsplash.com/1600x900/?nature/"
-        alt="Random Nature image"
+        alt="Random Nature"
         className="absolute object-cover w-full h-full opacity-10"
       />
 
@@ -75,24 +75,28 @@ export default function About() {
             <div class="w-6/12 sm:w-4/12 px-4">
               <img
                 src={cssImage}
+                alt="css shield"
                 className="inline-flex items-center py-3 px-3 my-6 mx-10 rounded"
               />
             </div>
             <div class="w-6/12 sm:w-4/12 px-4">
             <img
               src={htmlImage}
+              alt="html shield"
               className="inline-flex items-center py-3 px-3 my-6 mx-10 rounded"
             />
             </div>
             <div class="w-6/12 sm:w-4/12 px-4">
             <img
               src={javascriptImage}
+              alt="java shield"
               className="inline-flex items-center py-3 px-3 my-6 mx-10 rounded"
             />
             </div>
             <div class="w-6/12 sm:w-4/12 px-4">
             <img
               src={reactImage}
+              alt="ract shield"
               className="inline-flex items-center py-3 px-3 my-6 mx-10 rounded"
             />
             </div>

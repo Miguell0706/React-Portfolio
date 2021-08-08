@@ -31,7 +31,7 @@ export default function Project() {
     <main className="bg-gradient-to-r from-black to-gray-600 min-h-screen">
       <img
         src="https://source.unsplash.com/1600x900/?nature/"
-        alt="Random Nature image"
+        alt="Random Nature"
         className=" overflow-visible absolute object-cover w-full h-full opacity-20"
 
       />

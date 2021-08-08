@@ -1,12 +1,8 @@
 import React, { useEffect, useState } from "react";
 import sanityClient from "../client.js";
-import imageUrlBuilder from "@sanity/image-url";
-import BlockContent from "@sanity/block-content-to-react"
 
-const builder = imageUrlBuilder(sanityClient);
-function urlFor(source) {
-  return builder.image(source);
-}
+
+
 export default function Contact() {
   const [author, setAuthor] = useState(null);
 
@@ -28,7 +24,7 @@ export default function Contact() {
     <main className="bg-gradient-to-r from-black to-gray-600 min-h-screen">
     <img
       src="https://source.unsplash.com/1600x900/?nature/"
-      alt="Random Nature image"
+      alt="Random Nature"
       className="absolute object-cover w-full h-full opacity-10"
     />
 
